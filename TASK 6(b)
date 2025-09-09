@@ -17,8 +17,6 @@ def greet(name):
     """Return a greeting message for the user."""
     return f"Hello, {name}! Welcome to the program."
 def main():
-    # Demonstrating the use of user-defined functions
-    # Arithmetic operations
     num1 = 10
     num2 = 5
     print("Arithmetic Operations:")
@@ -26,10 +24,10 @@ def main():
     print(f"Difference between {num1} and {num2}:", subtract(num1, num2))
     print(f"Product of {num1} and {num2}:", multiply(num1, num2))
     print(f"Quotient of {num1} and {num2}:", divide(num1, num2)
-    # Greeting the user
+   
     user_name = "Alice"
     print("\nGreeting:")
     print(greet(user_name))
-# Run the main function
+
 if __name__ == "__main__":
     main()
